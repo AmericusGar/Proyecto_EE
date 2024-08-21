@@ -1,0 +1,117 @@
+header{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(237, 179, 198);
+    width: 100%;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    padding: 40px 0;
+}
+header ul a{
+    flex-wrap: wrap;
+    color: black;
+    margin-left: auto;
+}
+header ul a:hover{
+        color: blue;
+}
+header h2{
+    font-size: 25px;
+    padding: 40px;
+
+}
+header p{
+    margin: 0;
+    font-size: 15px;
+
+}
+
+header #logo{
+    width: 120px;
+    height: 110px;
+
+}
+
+header ul a li img{
+    width: 20px;
+}
+h1{
+    font-size: 24px;
+    color: rgb(83, 81, 81);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+p{
+    font-size: 24px;
+    color: rgb(83, 81, 81);
+}
+
+.carousel{
+    height: auto;
+    background-color: rgb(238, 230, 230);
+}
+.carousel-item img {
+    width: 100%; /* Asegura que la imagen ocupe el ancho completo del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+.carousel img{
+    width: 800px;
+    height: 600px;
+    object-fit: cover;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row{
+    background-color: rgb(238, 230, 230);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    margin: auto;
+
+}
+
+
+.row img{
+    border-radius: 100%;
+    height:195px;
+    width: 225px;
+    padding: 5%;
+   
+   
+}
+
+.container{
+    background-color: rgb(238, 230, 230);
+    display: flex;
+    flex-wrap: wrap; /* Permite que los elementos se ajusten y envuelvan en pantallas pequeñas */
+    gap: 20px; /* Espacio entre el mapa y el video */
+    padding: 20px;
+    width: 100%; /* Limita el ancho máximo del contenedor */
+    margin: 0 auto; /* Centra el contenedor en la página */
+    text-align: center;
+}
+
+.map-container,
+.video-container {
+    flex: 1 1 45%; /* Ambos ocupan aproximadamente el 45% del ancho, ajustándose al espacio disponible */
+    min-width: 300px; /* Asegura que los contenedores no se reduzcan demasiado en pantallas pequeñas */
+}
+.map-container iframe,
+.video-container video {
+    width: 100%; /* Ocupa el ancho completo del contenedor */
+    height: 350px; /* Mantiene la proporción del contenido */
+    border-radius: 10px; /* Añade bordes redondeados para un diseño más atractivo */
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    
+}
